@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+  --clr-black-400: #090909;
+  --clr-black-500: #202020;
+}
+/* Global Styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--clr-black-400);
+  font-family: "Source Sans 3", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 100%;
+  display: block;
+}
+header,
+main {
+  padding: 1em 2em;
+}
+.p-date {
+  margin-block: 0.5em;
+  font-size: 0.925rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+h1 {
+  line-height: 1.2;
+}
+p {
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+/* Utilities */
+.txt-color-white {
+  color: #fff;
+}
+.txt-color-black {
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
