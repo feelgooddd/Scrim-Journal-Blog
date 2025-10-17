@@ -27,8 +27,7 @@ main {
   align-items: center;
 }
 .intro img {
-  width: 200px;
-  height: 200px;
+  width: 120px;
   border-radius: 50%;
 }
 
